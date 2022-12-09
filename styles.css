@@ -1,7 +1,15 @@
 body {
-    background-color: steelblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: steelblue;
 }
+
+.task-list {
+  list-style: none;
+  min-height: 40vh;
+}
+
+
